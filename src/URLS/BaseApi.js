@@ -5,7 +5,7 @@ const BaseApi = {
         baseUrl: 'http://localhost:8085',
     },
     development: {
-        baseUrl: 'http://localhost:8085',
+        baseUrl: 'http://devurl',
     },
     production: {
         baseUrl: 'https://api.example.com',
