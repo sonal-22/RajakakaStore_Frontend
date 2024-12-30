@@ -1,0 +1,249 @@
+.all-list-container {
+    padding: 20px;
+    background-color: #fef9e7;
+    /* Light yellow background */
+    color: #b71c1c;
+    /* Dark red text */
+    font-family: Arial, sans-serif;
+}
+
+/* Button Styling */
+.action-button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.action-button:hover {
+    transform: translateY(-2px);
+}
+
+/* Edit Button */
+.edit-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: #45a049;
+    /* Slightly darker green on hover */
+}
+
+/* Delete Button */
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+    /* Darker red on hover */
+}
+
+/* Button Layout */
+.button-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.products-table td .action-button {
+    margin-right: 10px;
+}
+
+/* Table Styling */
+.products-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.products-table th,
+.products-table td {
+    border: 1px solid #d32f2f;
+    /* Red borders */
+    padding: 10px;
+    text-align: left;
+}
+
+.products-table th {
+    background-color: #ffeb3b;
+    /* Yellow header */
+    color: #d32f2f;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination-button {
+    background-color: #ffeb3b;
+    /* Yellow buttons */
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: #d32f2f;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pagination-button.active {
+    background-color: #d32f2f;
+    /* Active button in red */
+    color: #fef9e7;
+}
+
+/* Loading and Error Text */
+.loading-text {
+    color: #f57f17;
+    font-size: 18px;
+    text-align: center;
+}
+
+.error-text {
+    color: #d32f2f;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Button Layout */
+.button-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    /* Add spacing between the buttons */
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-transfer {
+    background-color: #ffeb3b;
+    /* Yellow */
+    color: #d32f2f;
+    /* Red text */
+}
+
+.btn-transfer:hover {
+    background-color: #fdd835;
+}
+
+.btn-display {
+    background-color: #ffeb3b;
+    /* Yellow */
+    color: #d32f2f;
+    /* Red text */
+}
+
+.btn-display:hover {
+    background-color: #fdd835;
+}
+
+.btn-order {
+    background-color: #ffeb3b;
+    /* Yellow */
+    color: #d32f2f;
+    /* Red text */
+}
+
+.wide-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffcc00;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.btn-order:hover {
+    background-color: #fdd835;
+}
+
+.all-list-container {
+    padding: 20px;
+    background-color: #fef9e7;
+    color: #b71c1c;
+    font-family: Arial, sans-serif;
+}
+
+.button-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-transfer,
+.btn-display,
+.btn-order {
+    background-color: #ffeb3b;
+    color: #d32f2f;
+}
+
+.btn-transfer:hover,
+.btn-display:hover,
+.btn-order:hover {
+    background-color: #fdd835;
+}
+
+.wide-button {
+    width: 100%;
+    background-color: #ffcc00;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.pagination-button {
+    background-color: #ffeb3b;
+    border: none;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: #d32f2f;
+}
+
+.pagination-button.active {
+    background-color: #d32f2f;
+    color: #fef9e7;
+}
+
+.modal.show {
+    display: block !important;
+    opacity: 1;
+    z-index: 1050;
+}
+
+.modal {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}

@@ -1,0 +1,125 @@
+/* Container Styling */
+.damaged-products-container {
+    padding: 20px;
+    background-color: #fef9e7;
+    /* Light yellow background */
+    color: #b71c1c;
+    /* Dark red text */
+    font-family: Arial, sans-serif;
+}
+
+/* Table Styling */
+.damaged-products-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.damaged-products-table th,
+.damaged-products-table td {
+    border: 1px solid #d32f2f;
+    /* Red borders */
+    padding: 10px;
+    text-align: left;
+}
+
+.damaged-products-table th {
+    background-color: #ffeb3b;
+    /* Yellow header */
+    color: #d32f2f;
+    /* Red text */
+}
+
+.damaged-products-table td {
+    background-color: #fffde7;
+    /* Light yellow for cells */
+}
+
+/* Button Styling */
+.action-button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.action-button:hover {
+    transform: translateY(-2px);
+}
+
+/* Edit Button */
+.edit-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: #45a049;
+    /* Slightly darker green on hover */
+}
+
+/* Delete Button */
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+    /* Darker red on hover */
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination-button {
+    background-color: #ffeb3b;
+    /* Yellow buttons */
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: #d32f2f;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pagination-button.active {
+    background-color: #d32f2f;
+    /* Active button in red */
+    color: #fef9e7;
+}
+
+/* Loading and Error Text */
+.loading-text {
+    color: #f57f17;
+    font-size: 18px;
+    text-align: center;
+}
+
+.error-text {
+    color: #d32f2f;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Wide Button Styling */
+.wide-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffcc00;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,180 @@
+.transfer-list-container {
+    padding: 16px;
+    background-color: #ffdd57;
+    /* Light yellow background */
+    border: 2px solid #f44336;
+    /* Red border */
+    border-radius: 8px;
+    margin-bottom: 16px;
+    overflow-x: auto;
+}
+
+.transfer-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.transfer-table th {
+    background-color: #f44336;
+    /* Red background for header */
+    color: #fff;
+    /* White text */
+    padding: 12px;
+    text-align: left;
+}
+
+.transfer-table td {
+    padding: 12px;
+    border: 1px solid #f44336;
+    /* Red border for table cells */
+}
+
+.transfer-table tr:nth-child(even) {
+    background-color: #ffe08a;
+    /* Alternating yellow row */
+}
+
+.transfer-table tr:hover {
+    background-color: #ffd54f;
+    /* Highlight row on hover */
+}
+
+.transfer-list-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transfer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.transfer-table th,
+.transfer-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.transfer-table th {
+    background-color: #f5c71a;
+    color: #b30000;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pagination-button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    background-color: #f5c71a;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.pagination-button.active {
+    background-color: #b30000;
+    color: white;
+}
+
+.pagination-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+/* Transfer list container styling */
+.transfer-list-container {
+    padding: 16px;
+    background-color: #ffdd57;
+    /* Light yellow background */
+    border: 2px solid #f44336;
+    /* Red border */
+    border-radius: 8px;
+    margin-bottom: 16px;
+    overflow-x: auto;
+}
+
+/* Table styling */
+.transfer-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.transfer-table th {
+    background-color: #f44336;
+    /* Red background for header */
+    color: #fff;
+    /* White text */
+    padding: 12px;
+    text-align: left;
+}
+
+.transfer-table td {
+    padding: 12px;
+    border: 1px solid #f44336;
+    /* Red border for table cells */
+}
+
+.transfer-table tr:nth-child(even) {
+    background-color: #ffe08a;
+    /* Alternating yellow row */
+}
+
+.transfer-table tr:hover {
+    background-color: #ffd54f;
+    /* Highlight row on hover */
+}
+
+/* Pagination styling */
+.pagination {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.page-btn {
+    background-color: #f44336;
+    /* Red background */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 0 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.page-btn.active {
+    background-color: #d32f2f;
+    /* Darker red for active page */
+}
+
+.page-btn:hover {
+    background-color: #d32f2f;
+    /* Darker red on hover */
+}
+
+/* Mobile-friendly adjustments */
+@media (max-width: 768px) {
+    .transfer-list-container {
+        padding: 12px;
+    }
+
+    .pagination {
+        flex-wrap: wrap;
+    }
+
+    .page-btn {
+        margin: 4px;
+    }
+}

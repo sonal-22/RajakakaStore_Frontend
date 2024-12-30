@@ -1,0 +1,50 @@
+/* login.css */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.image-container {
+    width: 45%;
+    display: flex;
+    /* Ensure this container behaves like a flexbox */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Align items vertically inside the image container */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.form-container {
+    width: 45%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* Ensure the form elements stack vertically */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: yellow;
+}
+
+.form-control {
+    background-color: rgb(241, 60, 60);
+}
