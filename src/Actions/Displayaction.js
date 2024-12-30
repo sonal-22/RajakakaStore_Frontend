@@ -39,7 +39,7 @@ export const fetchDisplayList = (pageIndex = 0, pageSize = 10, modelNumber = '',
 
         console.log('Sending request with:', productDisplayDto);
 
-        const response = await axios.post('http://localhost:8085/product/getAllDisplay', productDisplayDto, config);
+        const response = await axios.post(`${BASE_API_URL}/getAllDisplay`, productDisplayDto, config);
 
         console.log('API Response:', response.data);
 
@@ -87,7 +87,7 @@ export const DisplayProducts = (DisplayData) => async (dispatch) => {
 
         console.log('Sending display data:', displayData);
 
-        const response = await axios.post('http://localhost:8085/product/display', displayData, config);
+        const response = await axios.post(`${BASE_API_URL}/display`, displayData, config);
 
         console.log('API Response for Display:', response.data);
 

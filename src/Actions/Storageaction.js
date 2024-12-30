@@ -13,7 +13,7 @@ export const fetchStorages = () => async (dispatch) => {
         console.log('Token:', token);
 
         const response = await axios.post(
-            `${BaseApi}/product/getAllStorages`,
+            `${BaseApi.baseUrl}/product/getAllStorages`,
             {},  // Empty body if needed
             {
                 headers: {
